@@ -1,0 +1,12 @@
+#!/bin/bash
+cd
+sudo mv archPostInstallation/i3 .config/i3
+sudo chmod +x .config/i3/bar.sh
+sudo pacman -S picom
+sudo pacman -S feh
+sudo pacman -S rofi
+sudo rm -r .config/rofi
+sudo mv archPostInstallation/rofi .config/rofi
+sudo mkdir ~/Pictures
+sudo mv archPostInstallation/images/wallpaper.jpg ~/Pictures/wallpaper.jpg
+echo "i3 setup COMPLETE!"
