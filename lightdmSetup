@@ -1,0 +1,15 @@
+#!/bin/bash
+sudo pacman -S accountsservice
+sudo pacman -S lightdm-webkit2-greeter
+cd /usr/share/lightdm-webkit/themes/ 
+paru lightdm-webkit-theme-osmos
+cd
+sudo mv archPostInstallation/images/rumen.png /var/lib/AccountsService/icons/rumen.png
+sudo mv archPostInstallation/lightdm/rumen.txt /var/lib/AccountsService/users/rumen
+sudo chmod 644 /var/lib/AccountsService/users/rumen
+sudo chmod 644 /var/lib/AccountsService/icons/rumen.png
+sudo rm -r /etc/lightdm/lightdm.conf
+sudo rm -r /etc/lightdm/lightdm-webkit2-greeter.conf
+sudo mv archPostInstallation/lightdm/lightdm.conf /etc/lightdm/lightdm.conf
+sudo mv archPostInstallation/lightdm/lightdm-webkit2-greeter.conf /etc/lightdm/lightdm-webkit2-greeter.conf
+echo "LightDM setup is COMPLETE!"

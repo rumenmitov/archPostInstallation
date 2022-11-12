@@ -1,0 +1,7 @@
+#!/bin/bash
+sudo mkdir ~/.fonts
+sudo mv archPostInstallation/misc/fonts ~/.fonts
+sudo mkdir ~/.themes
+sudo mv archPostInstallation/misc/themes ~/.themes
+sudo mkdir ~/.icons
+sudo mv archPostInstallation/misc/icons ~/.icons 
