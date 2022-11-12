@@ -3,4 +3,3 @@ sudo pacman -S fish
 sudo rm -r .config/fish
 sudo mv archPostInstallation/fish .config/fish
 sudo usermod -s /usr/bin/fish rumen
-echo "Fish setup COMPLETE!"
