@@ -8,10 +8,22 @@ sudo pacman -S fortune-mod
 sudo mkdir ~/.vim
 sudo mv archPostInstall/vim ~/.vim
 sudo chmod +x paruSetup miscSetup braveSetup i3Setup lightdmSetup fishSetup
+echo "Launching paruSetup"  
 sudo ./paruSetup
-sudo ./miscSetup
-sudo ./braveSetup
-sudo ./i3Setup
-sudo ./lightdmSetup
-sudo ./fishSetup
-echo Setup COMPLETE!
+echo "paruSetup complete!"  
+echo "Launching miscSetup"  
+sudo ./miscSetup  
+echo "miscSetup complete!"  
+echo "Launching braveSetup"    
+sudo ./braveSetup  
+echo "braveSetup complete!"  
+echo "Launching i3Setup"  
+sudo ./i3Setup  
+echo "i3Setup complete!"  
+echo "Launching lightdmSetup"  
+sudo ./lightdmSetup  
+echo "lightdmSetup complete!"  
+echo "Launching fishSetup"  
+sudo ./fishSetup  
+echo "fishSetup complete!"  
+echo "Setup COMPLETE!"
