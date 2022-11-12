@@ -12,4 +12,3 @@ sudo rm -r /etc/lightdm/lightdm.conf
 sudo rm -r /etc/lightdm/lightdm-webkit2-greeter.conf
 sudo mv archPostInstallation/lightdm/lightdm.conf /etc/lightdm/lightdm.conf
 sudo mv archPostInstallation/lightdm/lightdm-webkit2-greeter.conf /etc/lightdm/lightdm-webkit2-greeter.conf
-echo "LightDM setup is COMPLETE!"
