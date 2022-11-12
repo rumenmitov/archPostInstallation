@@ -9,4 +9,3 @@ sudo rm -r .config/rofi
 sudo mv archPostInstallation/rofi .config/rofi
 sudo mkdir ~/Pictures
 sudo mv archPostInstallation/images/wallpaper.jpg ~/Pictures/wallpaper.jpg
-echo "i3 setup COMPLETE!"
